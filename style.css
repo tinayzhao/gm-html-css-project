@@ -1,0 +1,72 @@
+
+#home {
+    font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	background-color: rgba(227, 181, 54, 1);
+}
+
+#black-bear {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    background-color: #0A1828;
+}
+
+#brown-bear {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    background-color: #CC973B;
+}
+
+h1,h2,p {
+    text-align: center;
+}
+
+#bear-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+#bear-pic {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.row-padding {
+	padding-bottom: 1vh;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    font-size: 1em;
+}
+
+.greeting-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.navbar-nav { 
+    flex-direction: row;
+}
+
+li > a:link {
+    text-decoration: underline;
+    font-size: 1.0rem;
+}
+
+#intro-text {
+    font-size: 14pt;
+}
